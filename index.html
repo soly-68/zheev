@@ -10,6 +10,18 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <!-- استایل سفارشی برای لوگو -->
+        <style>
+            /* تغییرات لوگو */
+            #logo a {
+                font-family: 'Futura', sans-serif;
+                font-size: 2em; /* دو برابر سایز اولیه (در صورت نیاز می‌توانید مقدار را تغییر دهید) */
+                text-transform: lowercase; /* تبدیل تمامی حروف به کوچک */
+            }
+            #logo a:first-letter {
+                text-transform: uppercase; /* تبدیل فقط اولین حرف به بزرگ */
+            }
+        </style>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -18,7 +30,7 @@
 				<section id="header">
 
 					<!-- Logo -->
-						<h1><a href="index.html">ZHEEV</a></h1>
+						<h1 id="logo"><a href="index.html">ZHEEV</a></h1>
 
 					<!-- Nav -->
 						<nav id="nav">
